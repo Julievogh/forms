@@ -3,7 +3,6 @@
 }
 body {
   background: #cfd2da;
-  
 }
 form {
   background-color: antiquewhite;
@@ -28,5 +27,5 @@ button {
 }
 
 #countries {
-  margin-top: 1.2rem;
+  margin-top: 0rem;
 }
