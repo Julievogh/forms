@@ -1,23 +1,30 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
   background: #cfd2da;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures the body covers the entire viewport height */
 }
+
 form {
   background-color: antiquewhite;
-  margin: clamp(6rem, 3vw, 20rem);
+  max-width: clamp(2rem, 50vw, 32rem);
   padding: 2rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 0 auto; 
 }
 
 form > * {
-    margin: 0.4rem;
+  margin: 0.4rem;
 }
-
-
 
 button {
   margin-top: 2rem;
