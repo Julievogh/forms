@@ -14,7 +14,8 @@
     <form action="">
       <h2>Tilføj opskrift</h2>
       <label for="timestamp">Oprettet:</label>
-      <input type="date" name="timestamp" id="timestamp" />
+      <label for="date-input">Date Input</label>
+      <input class="input" id="date-input" type="date" />
       <label for="recipe">Opskrift</label>
       <input type="text" name="recipe" id="recipe" />
 
@@ -36,19 +37,39 @@
 
       <fieldset>
         <legend>Allergi</legend>
-        <label for="allergen1"><input type="checkbox" name="allergens" id="allergen1" value="" /> Laktosefri</label>
-        <label for="allergen2"><input type="checkbox" name="allergens" id="allergen2" value=""/> Glutenfri</label>
-        <label for="allergen3"><input type="checkbox" name="allergens" id="allergen3" value=""/> Fri for æg</label>
-        <label for="allergen4"><input type="checkbox" name="allergens" id="allergen4" value=""/> Uden nødder</label>
+        <label for="allergen1"
+          ><input type="checkbox" name="allergens" id="allergen1" value="" /> Laktosefri</label
+        >
+        <label for="allergen2"
+          ><input type="checkbox" name="allergens" id="allergen2" value="" /> Glutenfri</label
+        >
+        <label for="allergen3"
+          ><input type="checkbox" name="allergens" id="allergen3" value="" /> Fri
+          for æg</label
+        >
+        <label for="allergen4"
+          ><input type="checkbox" name="allergens" id="allergen4" value="" /> Uden
+          nødder</label
+        >
       </fieldset>
 
       <fieldset>
         <legend>SU-Venlig?</legend>
-        <label for="notStudentFriendly"
-          ><input type="radio" name="studentFriendly" id="notStudentFriendly" value="no" /> Ikke SU-Venlig</label
+        <label class="form-control" for="notStudentFriendly"
+          ><input
+            type="radio"
+            name="studentFriendly"
+            id="notStudentFriendly"
+            value="no"
+          /> Ikke SU-Venlig</label
         >
-        <label for="isStudentFriendly"
-          ><input type="radio" name="studentFriendly" id="isStudentFriendly" value="yes" /> SU-Venlig</label
+        <label class="form-control" for="isStudentFriendly"
+          ><input
+            type="radio"
+            name="studentFriendly"
+            id="isStudentFriendly"
+            value="yes"
+          /> SU-Venlig</label
         >
       </fieldset>
       <fieldset>
